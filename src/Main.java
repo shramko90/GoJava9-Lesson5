@@ -1,7 +1,13 @@
-package PACKAGE_NAME;
+import Transport.CarDoor;
 
-/**
- * Created by Tiger on 28.10.2017.
- */
 public class Main {
+    public static void main(String[] args) {
+        new CarDoor("df", "df");
+        CarDoor carDoor = new CarDoor();
+        carDoor.OpenDoor();
+        carDoor.CloseWindow();
+        carDoor.OpenOrCloseDoor();
+        carDoor.OpenOrCloseWindow();
+        carDoor.Show();
+    }
 }
